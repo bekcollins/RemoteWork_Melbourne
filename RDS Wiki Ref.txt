@@ -1,0 +1,18 @@
+
+
+# '''Unique Code'''
+#* Each room type must have its own unique code - don't copy and paste this cells (because it will no longer be unique!)
+#* Create new codes here https://www.guidgenerator.com/online-guid-generator.aspx
+#* Image goes here
+# '''Room Type Tag'''
+#* This is the room tag that will be displayed in Revit later
+#* Image goes here
+# '''Room Type Name''' 
+#* This is the full name for the room. It should correlate to the ''Room Type Tag'', and will appear in the properties of each instance of this room type in Revit
+#* Image goes here
+# '''Main Category''' 
+#* This is determined by the needs of the project. It could be a category such as department.
+#* Image goes here
+# '''Secondary Category'''
+#* This is determined by the needs of the project. It could be a category such as division within each department.
+#* Image goes here
