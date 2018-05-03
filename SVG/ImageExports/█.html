@@ -9,19 +9,25 @@ xml:space="preserve">
 <style type="text/css">
 .topography {fill-opacity:0;
 fill:rgb(none);
-stroke-width:0.05mm;
-stroke:rgb(147,149,152);
+stroke-width:0.025mm;
+stroke:rgb(178,180,184);
  }
-.buildings {fill-opacity:1.0;
-fill:rgb(230,230,230);
+.buildings {fill-rule:evenodd;
+opacity:1.0;
+fill-opacity:1.0;
+fill:rgb(212,217,212);
 stroke-width:0.05mm;
 stroke:rgb(13,13,13);
+ }
+.building-dropshadow {filter:url(#f0.5);
+opacity:1.0;
+fill:rgb(13,13,13);
  }
 .roads_carriageway {fill-rule:evenodd;
 fill-opacity:1.0;
-fill:rgb(199,200,201);
+fill:rgb(209,211,212);
 stroke-width:0.01mm;
-stroke:rgb(13,13,13);
+stroke:rgb(230,230,230);
  }
 .roads_green {fill-opacity:1.0;
 fill:rgb(171,198,102);
@@ -43,6 +49,15 @@ fill:rgb(204,222,145);
 stroke-width:0.0mm;
 stroke:rgb(96,127,63);
  }
+.water {fill-opacity:1.0;
+fill:rgb(173,225,250);
+stroke-width:0.0mm;
+stroke:rgb(13,13,13 (0));
+ }
+.water-innerglow {filter:url(#waterinnerglow);
+opacity:1.0;
+fill:rgb(13,13,13);
+ }
 .scalebar_curves {fill-opacity:0;
 fill:rgb(none);
 stroke-width:0.1mm;
@@ -55,6 +70,8 @@ fill:rgb(255,0,0);
  }
 .scalebar_box {fill-opacity:0.8;
 fill:rgb(255,255,255);
+stroke-width:0.1mm;
+stroke:rgb(147,149,152);
  }
 </style>
 </body>
